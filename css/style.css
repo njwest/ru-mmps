@@ -16,6 +16,28 @@ a:hover{
   color: #95C8D5;
 }
 
+.section-title{
+  border-top: 1px groove black;
+}
+
+.project-object{
+  overflow: auto;
+}
+
+.thumb{
+  float: left;
+  margin-right: 25px;
+  border: 1px solid black;
+}
+
+.thumb img{
+  display: block;
+}
+
+.content{
+  margin-left: 250px;
+}
+
 @media (max-width: 600px){
   #ssw{
     width: 75%;
