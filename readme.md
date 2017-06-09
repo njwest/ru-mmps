@@ -11,6 +11,9 @@ The Rutgers 2017 MMP Page implements:
 3. vh CSS units(for landing page area)
 4. Facebook Comments (currently deactivated, JS & bundle tag remain for quick implementation at program director's discretion)
 
+**All Rutgers University images used in this project are ©2017 Rutgers University**
+
+
 ## To Do:
 1. Fix scrollspy landing areas (headers are too low)
 2. Beautify code
