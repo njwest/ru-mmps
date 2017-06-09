@@ -1,4 +1,4 @@
-# ![rutgers shield](https://www.github.com/njwest/ru-mmps/shieldicon.png) Rutgers 2017 DSW Multimedia Projects 
+# ![rutgers shield](https://github.com/njwest/ru-mmps/blob/master/shieldicon.png) Rutgers 2017 DSW Multimedia Projects 
 
 ## To Do:
 1. Make actual readme
