@@ -8,43 +8,85 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="shortcut icon" href="http://www.nickwe.st/img/favicon.ico" type="image/x-icon">
+    <style media="screen">
+    body{
+      background-color: #F8F8F8;
+    }
+
+    a:hover{
+      color: #d21034;
+    }
+
+
+
+    .rutgers-red{
+      background-color: #d21034;
+    }
+
+    .nav-link:hover{
+      color: #95C8D5;
+    }
+
+    .section-title{
+      margin-bottom: 75px;
+    }
+
+    .project-object{
+      overflow: auto;
+    }
+
+    .thumb{
+      float: left;
+      margin-right: 25px;
+      border: 1px solid black;
+    }
+
+    .thumb img{
+      display: block;
+    }
+
+    .content{
+      margin-left: 250px;
+    }
+
+    @media (max-width: 600px){
+      #ssw{
+        width: 75%;
+        height: 75%;
+      }
+      h1.header{
+        font-size: 3em;
+      }
+    }
+
+    </style>
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1854782684803926";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+
     <nav class="rutgers-red lighten-1" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo nav-link"><img src="./shieldicon.png" style="padding-top:5px" /></a>
+            <a id="logo-container" href="#" class="brand-logo nav-link"><img src="http://www.nickwe.st/img/shieldicon.png" style="padding-top:5px" /></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="https://socialwork.rutgers.edu" class="nav-link">SSW Home</a></li>
                 <li><a href="http://dsw.socialwork.rutgers.edu" class="nav-link">DSW Program</a> </li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="#" class="nav-link">Navbar Link</a></li>
+              <li><a href="https://socialwork.rutgers.edu" class="nav-link">SSW Home</a></li>
+              <li><a href="http://dsw.socialwork.rutgers.edu" class="nav-link">DSW Program</a> </li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse nav-link"><i class="material-icons">menu</i></a>
         </div>
     </nav>
-    <div class="section no-pad-bot" id="index-banner"  style="height: 100vh;">
+    <div class="section no-pad-bot" id="index-banner" >
         <div class="container">
 
             <br/>
             <div class="center">
-                <img id="ssw" src="./header.png" alt="Rutgers School of Social Work" />
+                <img id="ssw" src="http://www.nickwe.st/img/header.png" alt="Rutgers School of Social Work" />
             </div>
             <h1 class="header center">DSW Class of 2017<br/>Multimedia Projects</h1>
             <div class="video center">
@@ -61,7 +103,7 @@
 
         </div>
     </div>
-    <div style="border-top: 1px groove black;">
+    <div style="margin-top: 100px;" class="section-title">
         <h2 style="text-align:center;">Websites</h2>
       </div>
 
@@ -70,7 +112,7 @@
             <div class="row">
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/suttenberg.png" />
+                        <img src="http://www.nickwe.st/img//suttenberg.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -85,7 +127,7 @@
 
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/lopez.png" />
+                        <img src="http://www.nickwe.st/img//lopez.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -100,7 +142,7 @@
 
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/lado.png" />
+                        <img src="http://www.nickwe.st/img//lado.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -114,7 +156,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/bailey.png" />
+                        <img src="http://www.nickwe.st/img//bailey.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -128,7 +170,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/calabrese.png" />
+                        <img src="http://www.nickwe.st/img//calabrese.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -142,7 +184,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/norman.png" />
+                        <img src="http://www.nickwe.st/img//norman.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -156,7 +198,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/hayes.png" />
+                        <img src="http://www.nickwe.st/img//hayes.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -170,7 +212,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/cruz.png" />
+                        <img src="http://www.nickwe.st/img//cruz.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -184,7 +226,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/hubbard.png" />
+                        <img src="http://www.nickwe.st/img//hubbard.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -199,7 +241,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/brayman.png" />
+                        <img src="http://www.nickwe.st/img//brayman.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -213,7 +255,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/lipchock.png" />
+                        <img src="http://www.nickwe.st/img//lipchock.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -227,7 +269,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/rubinfine.png" />
+                        <img src="http://www.nickwe.st/img//rubinfine.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -241,7 +283,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/flores.png" />
+                        <img src="http://www.nickwe.st/img//flores.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -255,7 +297,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/blasoni.png" />
+                        <img src="http://www.nickwe.st/img//blasoni.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -269,7 +311,7 @@
                 <br/>
                 <div class="project-object">
                     <div class="thumb">
-                        <img src="./img/winograd.png" />
+                        <img src="http://www.nickwe.st/img//winograd.png" />
                     </div>
                     <div class="content">
                         <h4>
@@ -312,8 +354,14 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script>(function($){
+      $(function(){
+
+        $('.button-collapse').sideNav();
+
+      }); // end of document ready
+    })(jQuery); // end of jQuery name space</script>
     <script>
     $(document).ready(function(){
     $('.scrollspy').scrollSpy();
